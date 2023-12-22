@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --golden-gradient: linear-gradient(90deg, rgba(242,185,80,1) 0%, rgba(166,99,18,1) 100%);
+    --blue-gradient: linear-gradient(90deg, rgba(6,48,61,1) 0%, rgba(0,132,170,1) 50%, rgba(101,206,237,1) 100%);
+    --blue-gradient-hor: linear-gradient(-5deg, #06303D 0%, #0084AA 70%, #65CEED 100%);
+    --purple-gradient: linear-gradient(45deg, #14132B 0%, #263B5E 100%);
+    --coldblue-gradient: linear-gradient(0deg, #B2D2DC 0%, #b2d2dc00 40%, #b2d2dc00 100%);
+}
+
+:root{
+    --abaddon-black: #231F20;
+    --text-blue: #56717A;
+    --bluish-white-3: #B2D2DC;
+    --bluish-white-2: #CAE3EB;
+    --bluish-white-1: #DDF3FA;
+    --white: #FFFFFF;
+
+    --marine-blue: #15142C;
+    --noras-forest: #06303D;
+    --bird-of-paradise: #0084AA;
+    --turquoise-sea: #65CEED;
+    --afternoon-sky: #85D3E9;
+}
+
+h1{
+    font-family: 'Caudex', serif;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 100;
+} h1 b {
+    font-weight: 700;
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 18px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 8px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+p{
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+    width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #DDF3FA;
+    margin-top: 54px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #56abc6;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3c7789;
+}

@@ -1,0 +1,67 @@
+/* TIMER STYLES */
+.timeContainer {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 110px;
+    margin-top: 0;
+}
+
+.timeContainer .wrapper {
+    width: 400px;
+    padding: 0;
+    max-height: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.timeContainer .wrapper div {
+    color: var(--white);
+    text-align: center;
+    width: 25%;
+    height: 100px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.timeContainer .wrapper div p {
+    margin: 0;
+    color: var(--text-blue);
+    background-color: var(--white);
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.timeContainer .wrapper div:first-child {
+    background: var(--bird-of-paradise);
+    color: var(--white);
+}
+
+.timeContainer .wrapper div:nth-child(2) {
+    background: var(--bird-of-paradise);
+    color: var(--white);
+}
+
+.timeContainer .wrapper div:nth-child(3) {
+    background: var(--noras-forest);
+    color: #fff;
+}
+
+.timeContainer .wrapper div:last-child {
+    background: var(--noras-forest);
+    color: #fff;
+}
+
+.timeContainer .wrapper div h2 {
+    font-size: 2.2rem;
+    margin-top: 40px;
+}
